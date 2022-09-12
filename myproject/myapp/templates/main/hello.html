@@ -1,0 +1,24 @@
+{% extends "main/index.html" %}
+
+{% comment %} Title {% endcomment %}
+{% block title %} Hello Page {% endblock title %}  
+
+{% comment %} Body {% endcomment %}
+{% block content %}
+        Hello world!!! today is<b> {{today}}</b>
+        <br>
+        Today is
+        {% if today.day == 16 %}
+        day of month
+        {% elif today.day == 30 %}
+        last day of month
+        {% else %}
+        IDK
+        {% endif %}
+
+        <p>
+            {% for week in day_of_week%}
+                {{week}}        <br>
+            {% endfor %}
+        </p>
+{% endblock content %}  

@@ -1,0 +1,20 @@
+16/07/202209:40:38 PM:INFO:A new Request came
+16/07/202209:41:07 PM:INFO:A new Request came
+16/07/202209:41:14 PM:ERROR:division by zero
+Traceback (most recent call last):
+  File "c:\Users\Aswad\Desktop\softsolutions\Logging\exception.py", line 12, in <module>
+    print("Result: ", x/y)
+ZeroDivisionError: division by zero
+16/07/202209:41:32 PM:INFO:A new Request came
+16/07/202209:41:38 PM:ERROR:division by zero
+Traceback (most recent call last):
+  File "c:\Users\Aswad\Desktop\softsolutions\Logging\exception.py", line 12, in <module>
+    print("Result: ", x/y)
+ZeroDivisionError: division by zero
+16/07/202209:41:40 PM:INFO:A new Request came
+16/07/202209:41:42 PM:ERROR:invalid literal for int() with base 10: 'wsda'
+Traceback (most recent call last):
+  File "c:\Users\Aswad\Desktop\softsolutions\Logging\exception.py", line 11, in <module>
+    y= int(input("Enter Value 2: "))
+ValueError: invalid literal for int() with base 10: 'wsda'
+16/07/202209:41:53 PM:INFO:A new Request came

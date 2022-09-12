@@ -1,0 +1,2 @@
+@abstractmethod
+    # def process(self):
